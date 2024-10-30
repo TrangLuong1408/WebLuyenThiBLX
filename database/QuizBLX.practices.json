@@ -1,5 +1,449 @@
 [{
   "_id": {
+    "$oid": "671ddd670b622bfdc18e4ca6"
+  },
+  "question": "Cuộc đua xe chỉ được thực hiện khi nào?",
+  "answers": [
+    {
+      "text": "Diễn ra trên đường phố không có người qua lại",
+      "isCorrect": false
+    },
+    {
+      "text": "Được người dân ủng hộ",
+      "isCorrect": false
+    },
+    {
+      "text": "Được cơ quan có thẩm quyền cấp phép",
+      "isCorrect": true
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4ca7"
+  },
+  "question": "Người điều khiển phương tiện giao thông đường bộ mà trong cơ thể có chất ma tuý có bị nghiêm cấm hay không?",
+  "answers": [
+    {
+      "text": "Bị nghiêm cấm",
+      "isCorrect": true
+    },
+    {
+      "text": "Không bị nghiêm cấm",
+      "isCorrect": false
+    },
+    {
+      "text": "Không bị nghiêm cấm, nếu có chất ma tuý ở mức nhẹ, có thể điều khiển phương tiện tham gia giao thông",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4ca8"
+  },
+  "question": "Sử dụng rượu bia khi lái xe, nếu bị phát hiện thì bị xử lý như thế nào?",
+  "answers": [
+    {
+      "text": "Chỉ bị nhắc nhở",
+      "isCorrect": false
+    },
+    {
+      "text": "Bị xử phạt hành chính hoặc có thể bị xử lý hình sự tùy theo mức độ vi phạm",
+      "isCorrect": true
+    },
+    {
+      "text": "Không bị xử lý hình sự",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4ca9"
+  },
+  "question": "Theo Luật phòng chống tác hại của rượu, bia, đối tượng nào dưới đây bị cấm sử dụng rượu bia khi tham gia giao thông?",
+  "answers": [
+    {
+      "text": "Người điều khiển: Xe ô tô, xe mô tô, xe đạp, xe gắn máy",
+      "isCorrect": true
+    },
+    {
+      "text": "Người ngồi phía sau người điều khiển xe cơ giới, người đi bộ",
+      "isCorrect": false
+    },
+    {
+      "text": "Cả ý 1 và ý 2",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4caa"
+  },
+  "question": "Hành vi điều khiển xe cơ giới chạy quá tốc độ quy định, giành đường, vượt ẩu có bị nghiêm cấm hay không?",
+  "answers": [
+    {
+      "text": "Bị nghiêm cấm tùy từng trường hợp",
+      "isCorrect": false
+    },
+    {
+      "text": "Không bị nghiêm cấm",
+      "isCorrect": false
+    },
+    {
+      "text": "Bị nghiêm cấm",
+      "isCorrect": true
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cab"
+  },
+  "question": "Ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, đường cao tốc, đường hẹp, đường dốc, tại nơi đường bộ giao nhau cùng mức với đường sắt có được quay đầu xe hay không?",
+  "answers": [
+    {
+      "text": "Được phép",
+      "isCorrect": false
+    },
+    {
+      "text": "Không được phép",
+      "isCorrect": true
+    },
+    {
+      "text": "Tùy từng trường hợp",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cac"
+  },
+  "question": "Người điều khiển xe mô tô hai bánh, ba bánh, xe gắn máy có được phép sử dụng xe để kéo hoặc đẩy các phương tiện khác khi tham gia giao thông không?",
+  "answers": [
+    {
+      "text": "Được phép",
+      "isCorrect": false
+    },
+    {
+      "text": "Nếu phương tiện được kéo, đẩy có khối lượng nhỏ hơn phương tiện của mình",
+      "isCorrect": false
+    },
+    {
+      "text": "Tuỳ trường hợp",
+      "isCorrect": false
+    },
+    {
+      "text": "Không được phép",
+      "isCorrect": true
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cad"
+  },
+  "question": "Khi điều khiển xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy, những hành vi buông cả hai tay; sử dụng xe để kéo, đẩy xe khác, vật khác; sử dụng chân chống của xe quệt xuống đường khi xe đang chạy có được phép hay không?",
+  "answers": [
+    {
+      "text": "Được phép",
+      "isCorrect": false
+    },
+    {
+      "text": "Tuỳ trường hợp",
+      "isCorrect": false
+    },
+    {
+      "text": "Không được phép",
+      "isCorrect": true
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cae"
+  },
+  "question": "Khi điều khiển xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy, những hành vi nào không được phép?",
+  "answers": [
+    {
+      "text": "Buông cả hai tay; sử dụng xe để kéo, đẩy xe khác, vật khác; sử dụng chân chống của xe quệt xuống đường khi xe đang chạy",
+      "isCorrect": true
+    },
+    {
+      "text": "Buông một tay; sử dụng xe để chở người hoặc hàng hoá; để chân chạm xuống đất khi khởi hành",
+      "isCorrect": false
+    },
+    {
+      "text": "Đội mũ bảo hiểm; chạy xe đúng tốc độ quy định và chấp hành đúng quy tắc giao thông đường bộ",
+      "isCorrect": false
+    },
+    {
+      "text": "Chở người ngồi sau dưới 16 tuổi",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4caf"
+  },
+  "question": "Người ngồi trên xe mô tô hai bánh, ba bánh, xe gắn máy khi tham gia giao thông có được mang, vác vật cồng kềnh hay không?",
+  "answers": [
+    {
+      "text": "Được mang, vác, tuỳ trường hợp cụ thể",
+      "isCorrect": false
+    },
+    {
+      "text": "Không được mang, vác",
+      "isCorrect": false
+    },
+    {
+      "text": "Được mang, vác nhưng phải đảm bảo an toàn",
+      "isCorrect": true
+    },
+    {
+      "text": "Được mang vác tùy theo sức khỏe của bản thân",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cb0"
+  },
+  "question": "Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được bám, kéo hoặc đẩy các phương tiện khác không?",
+  "answers": [
+    {
+      "text": "Được phép",
+      "isCorrect": false
+    },
+    {
+      "text": "Được bám trong trường hợp phương tiện của mình bị hỏng",
+      "isCorrect": false
+    },
+    {
+      "text": "Được kéo, đẩy trong trường hợp phương tiện khác bị hỏng",
+      "isCorrect": false
+    },
+    {
+      "text": "Không được phép",
+      "isCorrect": true
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cb1"
+  },
+  "question": "Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được sử dụng ô khi trời mưa hay không?",
+  "answers": [
+    {
+      "text": "Được sử dụng",
+      "isCorrect": false
+    },
+    {
+      "text": "Chỉ người ngồi sau được sử dụng",
+      "isCorrect": false
+    },
+    {
+      "text": "Không được sử dụng",
+      "isCorrect": true
+    },
+    {
+      "text": "Được sử dụng nếu không có áo mưa",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cb2"
+  },
+  "question": "Khi đang lên dốc người ngồi trên xe mô tô có được phép kéo theo người đang điều khiển xe đạp hay không?",
+  "answers": [
+    {
+      "text": "Chỉ được phép nếu cả hai đội mũ bảo hiểm",
+      "isCorrect": false
+    },
+    {
+      "text": "Không được phép",
+      "isCorrect": true
+    },
+    {
+      "text": "Chỉ được phép thực hiện trên đường thật vắng",
+      "isCorrect": false
+    },
+    {
+      "text": "Chỉ được phép khi người đi xe đạp đã quá mệt",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cb3"
+  },
+  "question": "Hành vi sử dụng xe mô tô để kéo, đẩy xe mô tô khác bị hết xăng đến trạm mua xăng có được phép hay không?",
+  "answers": [
+    {
+      "text": "Chỉ được kéo nếu đã nhìn thấy trạm xăng",
+      "isCorrect": false
+    },
+    {
+      "text": "Chỉ được thực hiện trên đường vắng phương tiện cùng tham gia giao thông",
+      "isCorrect": false
+    },
+    {
+      "text": "Không được phép",
+      "isCorrect": true
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cb4"
+  },
+  "question": "Hành vi vận chuyển đồ vật cồng kềnh bằng xe mô tô, xe gắn máy khi tham gia giao thông có được phép hay không?",
+  "answers": [
+    {
+      "text": "Không được vận chuyển",
+      "isCorrect": false
+    },
+    {
+      "text": "Chỉ được vận chuyển khi đã chằng buộc cẩn thận",
+      "isCorrect": true
+    },
+    {
+      "text": "Chỉ được vận chuyển vật cồng kềnh trên xe máy nếu khoảng cách về nhà ngắn hơn 2 km",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cb5"
+  },
+  "question": "Người ngồi trên xe mô tô 2 bánh, xe gắn máy phải đội mũ bảo hiểm có cài quai đúng quy cách khi nào?",
+  "answers": [
+    {
+      "text": "Khi tham gia giao thông đường bộ",
+      "isCorrect": true
+    },
+    {
+      "text": "Chỉ khi đi trên đường chuyên dùng; đường cao tốc",
+      "isCorrect": false
+    },
+    {
+      "text": "Khi tham gia giao thông trên đường tỉnh lộ hoặc quốc lộ",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cb6"
+  },
+  "question": "Người điều khiển xe mô tô hai bánh, xe gắn máy có được đi xe dàn hàng ngang; đi xe vào phần đường dành cho người đi bộ và phương tiện khác; sử dụng ô, điện thoại di động, thiết bị âm thanh (trừ thiết bị trợ thính) hay không?",
+  "answers": [
+    {
+      "text": "Được phép nhưng phải đảm bảo an toàn",
+      "isCorrect": false
+    },
+    {
+      "text": "Không được phép",
+      "isCorrect": true
+    },
+    {
+      "text": "Được phép tùy từng hoàn cảnh, điều kiện cụ thể",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cb7"
+  },
+  "question": "Người lái xe phải xử lý như thế nào khi quan sát phía trước thấy người đi bộ đang sang đường tại nơi có vạch đường dành cho người đi bộ để đảm bảo an toàn?",
+  "answers": [
+    {
+      "text": "Giảm tốc độ, đi từ từ để vượt qua trước người đi bộ",
+      "isCorrect": false
+    },
+    {
+      "text": "Giảm tốc độ, có thể dừng lại nếu cần thiết trước vạch dừng xe để nhường đường cho người đi bộ qua đường",
+      "isCorrect": true
+    },
+    {
+      "text": "Tăng tốc độ để vượt qua trước người đi bộ",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cb8"
+  },
+  "question": "Khi điều khiển xe mô tô tay ga xuống đường dốc dài, độ dốc cao, người lái xe cần thực hiện các thao tác nào dưới đây để đảm bảo an toàn?",
+  "answers": [
+    {
+      "text": "Giữ tay ga ở mức độ phù hợp, sử dụng phanh trước và phanh sau để giảm tốc độ",
+      "isCorrect": true
+    },
+    {
+      "text": "Nhả hết tay ga, tắt động cơ, sử dụng phanh trước và phanh sau để giảm tốc độ",
+      "isCorrect": false
+    },
+    {
+      "text": "Sử dụng phanh trước để giảm tốc độ kết hợp với tắt chìa khóa điện của xe",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
+    "$oid": "671ddd670b622bfdc18e4cb9"
+  },
+  "question": "Khi đang lái xe mô tô và ô tô, nếu có nhu cầu sử dụng điện thoại để nhắn tin hoặc gọi điện, người lái xe phải thực hiện như thế nào trong các tình huống nêu dưới đây?",
+  "answers": [
+    {
+      "text": "Giảm tốc độ để đảm bảo an toàn với xe phía trước và sử dụng điện thoại để liên lạc",
+      "isCorrect": false
+    },
+    {
+      "text": "Giảm tốc độ để dừng xe ở nơi cho phép dừng xe sau đó sử dụng điện thoại để liên lạc",
+      "isCorrect": true
+    },
+    {
+      "text": "Tăng tốc độ để cách xa xe phía sau và sử dụng điện thoại để liên lạc",
+      "isCorrect": false
+    }
+  ],
+  "RequireQuestion": true
+},
+{
+  "_id": {
     "$oid": "671de67b0b622bfdc18e4cbc"
   },
   "question": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
@@ -17,7 +461,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -38,7 +482,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -59,7 +503,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -80,7 +524,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -101,7 +545,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -126,7 +570,7 @@
       "isCorrect": true
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -143,7 +587,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -164,7 +608,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -185,7 +629,7 @@
       "isCorrect": true
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -206,7 +650,7 @@
       "isCorrect": true
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -227,7 +671,7 @@
       "isCorrect": true
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -248,7 +692,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -269,7 +713,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -286,7 +730,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -307,7 +751,7 @@
       "isCorrect": true
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -328,7 +772,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -349,7 +793,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -374,7 +818,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -395,7 +839,7 @@
       "isCorrect": true
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -416,7 +860,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -441,7 +885,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -462,7 +906,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -483,7 +927,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -508,7 +952,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -533,7 +977,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -558,7 +1002,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -579,7 +1023,7 @@
       "isCorrect": true
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -604,7 +1048,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -629,7 +1073,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -654,7 +1098,7 @@
       "isCorrect": true
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -679,7 +1123,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -704,7 +1148,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -725,7 +1169,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -746,7 +1190,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -767,7 +1211,7 @@
       "isCorrect": false
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 },
 {
   "_id": {
@@ -792,5 +1236,5 @@
       "isCorrect": true
     }
   ],
-  "caudiemliet": false
+  "RequireQuestion": false
 }]

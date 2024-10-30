@@ -1,16 +1,12 @@
 //models/index.js
 const mongoose = require('mongoose');
 
-const CauDiemLiet = require('./cauDiemLietModel');
-const OnLuyenThi = require('./onLuyenThiModel');
+const Practice = require('./PracticeModel');
 
 mongoose.Promise = global.Promise;
 //Khai bao 1 doi tuong chua thong tin ve database
 const db = {};
-db.CauDiemLiet = CauDiemLiet;
-db.OnLuyenThi = OnLuyenThi;
-
-
+db.practice = Practice;
 
 db.ConnectDB= () => mongoose
 .connect(process.env.URL,{dbName: process.env.DBNAME})

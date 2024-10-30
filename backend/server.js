@@ -6,6 +6,9 @@ const  db  = require('./models');
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const httpError = require("http-errors");
+const cors = require("cors");
+
+server.use(cors());
 
 //import router
 const { BLXRouter } = require('./routes');

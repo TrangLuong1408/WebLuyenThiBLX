@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #ffffff;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,8 +37,78 @@
   }
 }
 
+.mdl-js {
+background-color: #FCEFFB;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 .title {
   text-align: center;
   color: #33186B;
   font-size: 230%;
 }
+
+.logo {
+  border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 0 10px 0;
+    
+}
+
+.button {
+  background-color: #33186B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Tạo khoảng cách giữa các phần tử */
+}
+
+/* Home.js */
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.home-button {
+  background-color: #8b5cf6;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+}
+
+.large-button {
+  width: 250px;
+}
+
+.home-button:hover {
+  background-color: #6d4bc5;
+}
+
+

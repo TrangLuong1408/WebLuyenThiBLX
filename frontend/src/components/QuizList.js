@@ -6,7 +6,7 @@ const QuizList = () => {
 
     useEffect(() => {
         const fetchQuizzes = async () => {
-            const response = await axios.get('http://localhost:8000/OnLuyenAll');
+            const response = await axios.get('http://localhost:8000/practices');
             setQuizzes(response.data);
         };
         fetchQuizzes();

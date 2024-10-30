@@ -1,29 +1,38 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useNavigate} from 'react-router-dom'
+
 
 const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const navigate = useNavigate()
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        try {
-            const response = await axios.post('http://localhost:8000/accounts', { username, password });
-            localStorage.setItem('token', response.data.token);
-            alert('Logged in successfully');
-        } catch (err) {
-            alert('Error logging in');
-        }
+        axios.post('http://localhost:8000/login', { username, password })
+        .then(result => {console.log(result)
+            alert(result.data.message);
+            if(result.data.message === "Successful") {
+                
+        navigate('/home')
+            }
+        })   
+        .catch (err => console.log(err))
     };
 
     return (
         <div> 
-            <h1>LOGIN</h1>
-        <form onSubmit={handleSubmit}>
+            <img className="logo" src="/img/download (1).jpg" alt="logo" />
+            <h1 className="title">LOGIN</h1>
+        <form className="form-login" onSubmit={handleSubmit}>
+            Username:
             <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Username" />
-            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
-            <button type="submit">Login</button>
+            Password:
+            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" /> 
+            <button className="button" type="submit">LOGIN</button>
         </form>
+        <p>Don't have an account? <a href="/register">REGISTER</a></p>
         </div>
     );
 };
