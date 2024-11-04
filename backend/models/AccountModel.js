@@ -20,9 +20,9 @@ const AccountSchema = new Schema({
         type: String,
         required: true
     } ,
-    // role: { type: String, enum: ['customer', 'admin'], default: 'customer', required: true },
+    role: { type: String, enum: ['customer', 'admin'], default: 'customer', required: true },
 }, { timestamps: true });
 
-const Account = mongoose.model("Register", AccountSchema);
+const Account = mongoose.model("Account", AccountSchema);
 
 module.exports = Account

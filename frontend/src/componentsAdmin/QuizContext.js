@@ -16,12 +16,7 @@ const QuizProvider = ({children}) => {
         const response = await axios.post('http://localhost:8000/practices', quiz);
         setQuizzes([...quizzes, response.data]);
     };
-    // const deleteQuiz = async (id) => {
-    //     await axios.delete(`http://localhost:8000/practices/${id}`);
-    //     setQuizzes(quizzes.filter((q) => q._id !== id));
-    // };
-
-    
+  
 
   return (
     <QuizContext.Provider value= {{ quizzes, addQuiz}}>

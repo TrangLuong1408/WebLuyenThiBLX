@@ -6,11 +6,12 @@ const practiceSchema = new mongoose.Schema({
     answers: [
         {
             text: { type: String, required: true },
-            isCorrect: { type: Boolean, required: true, default: false },
-            RequireQuestion: { type: Boolean, required: true}
+            isCorrect: { type: Boolean, required: true, default: false }
+           
         }
-    ]
-});
+    ],
+    RequireQuestion: { type: Boolean, required: true}
+}, { timestamps: true  } );
 
 const Practice = mongoose.model('Practice', practiceSchema);
 
