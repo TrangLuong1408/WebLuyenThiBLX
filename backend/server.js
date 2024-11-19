@@ -8,6 +8,7 @@ const morgan = require("morgan");
 const httpError = require("http-errors");
 const cors = require("cors");
 
+
 server.use(cors());
 
 //import router

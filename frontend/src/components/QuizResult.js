@@ -34,6 +34,8 @@ const QuizResult = () => {
                             {answer.practice.answers.map((ans) => (
                                 <li key={ans._id} className={`result-answer ${ans.isCorrect ? 'correct' : 'incorrect'}`}>
                                     {ans.text}
+                                    {answer.selectedAnswer === ans.text && <span> ✅</span>}
+
                                 </li>
                             ))}
                         </ul>
